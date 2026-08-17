@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: hims-automation-backend
+    runtime: docker
+    dockerfilePath: ./backend/Dockerfile
+    dockerContext: ./backend
+    envVars:
+      - key: PORT
+        value: 5001
+      - key: HIMS_USER
+        value: 7786
+      - key: HIMS_PASS
+        value: randarusy
+    disk:
+      name: hims-data
+      mountPath: /app/output
+      sizeGB: 1
