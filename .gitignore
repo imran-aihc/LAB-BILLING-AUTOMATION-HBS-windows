@@ -1,0 +1,12 @@
+﻿venv/
+__pycache__/
+*.pyc
+downloads/
+output/
+uploads/
+*.png
+*.pdf
+*.xlsx
+*.zip
+node_modules/
+.env
