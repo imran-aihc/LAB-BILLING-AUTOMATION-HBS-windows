@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from "react";
 
-const API = "http://127.0.0.1:5001/api";
+const API = "https://lab-billing-automation-hbs-windows.onrender.com/api";
 
 // ── tiny SVG icon helper ──────────────────────────────────────────────────────
 function Ic({ d, size = 18, color = "currentColor" }) {
